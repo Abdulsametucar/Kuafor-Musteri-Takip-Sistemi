@@ -1,5 +1,7 @@
 # Kuafor-Musteri-Takip-Sistemi
 
+## Site Link
+http://95.130.171.20/~st21360859075/
 ## Kurulum
 
 1. Proje dosyalarını indirin ve XAMPP `htdocs` klasörüne yerleştirin.
