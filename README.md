@@ -22,6 +22,8 @@ C:\xampp\htdocs\
             ├── kayit.php
             ├── anasayfa.php
             ├── musteri_ekle.php
+            ├── musteri_sil.php
+            ├── cikis.php
             └── musteri_duzenle.php
 
 ```
