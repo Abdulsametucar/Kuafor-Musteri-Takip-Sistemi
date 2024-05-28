@@ -3,6 +3,29 @@
 ## Kurulum
 
 1. Proje dosyalarını indirin ve XAMPP `htdocs` klasörüne yerleştirin.
+```
+C:\xampp\htdocs\
+    ├── index.php
+    ├── README.md
+    ├── .htaccess
+    ├── web-proje2\
+        ├── css\
+        │   └── styles.css
+        ├── js\
+        │   └── scripts.js
+        ├── includes\
+        │   ├── veritabani.php
+        │   ├── baslik.php
+        │   └── altbilgi.php
+        ├── pages\
+            ├── giris.php
+            ├── kayit.php
+            ├── anasayfa.php
+            ├── musteri_ekle.php
+            ├── musteri_duzenle.php
+            └── musteri_listele.php
+
+```
 2. XAMPP Kontrol Panelini açın ve Apache ile MySQL'i başlatın.
 3. `http://localhost/phpmyadmin` adresine gidin ve yeni bir veritabanı oluşturun.
 4. Aşağıdaki SQL komutlarını kullanarak veritabanı tablolarını oluşturun:
