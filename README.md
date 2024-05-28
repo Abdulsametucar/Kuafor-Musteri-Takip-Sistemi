@@ -31,6 +31,12 @@ C:\xampp\htdocs\Kuafor-Musteri-Takip-Sistemi-main\
 3. `http://localhost/phpmyadmin` adresine gidin ve yeni bir veritabanı oluşturun.
 4. berber.sql dosyasını phpMyAdmin üzerinden veritabanınıza içe aktarın.
 5. `web-proje2/includes/veritabani.php` dosyasını açın ve veritabanı bağlantı bilgilerini güncelleyin.
+```
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "berber";     //veritabani ismi
+```
 6. `http://localhost/Kuafor-Musteri-Takip-Sistemi-main/index.php` adresine gidin ve uygulamayı kullanmaya başlayın.
 
 ## Kullanım
@@ -46,3 +52,7 @@ C:\xampp\htdocs\Kuafor-Musteri-Takip-Sistemi-main\
 ## Proje Hakkında
 
 Bu proje, PHP, MySQL, HTML ve Bootstrap kullanılarak bir berber müşteri takip sistemi oluşturmak amacıyla geliştirilmiştir.
+
+
+## Youtube Link
+https://www.youtube.com/watch?v=C0f64fn__zA
