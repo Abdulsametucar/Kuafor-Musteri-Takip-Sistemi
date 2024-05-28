@@ -41,7 +41,7 @@ C:\xampp\htdocs\Kuafor-Musteri-Takip-Sistemi-main\
 - `web-proje2/pages/anasayfa.php`: Giriş yaptıktan sonra kullanıcı ana sayfası
 - `web-proje2/pages/musteri_ekle.php`: Yeni müşteri ekleme sayfası
 - `web-proje2/pages/musteri_duzenle.php`: Müşteri düzenleme sayfası
-- `web-proje2/pages/musteri_listele.php`: Müşteri listeleme sayfası
+- `web-proje2/pages/musteri_sil.php`: Müşteri silme sayfası
 
 ## Proje Hakkında
 
