@@ -22,8 +22,7 @@ C:\xampp\htdocs\
             ├── kayit.php
             ├── anasayfa.php
             ├── musteri_ekle.php
-            ├── musteri_duzenle.php
-            └── musteri_listele.php
+            └── musteri_duzenle.php
 
 ```
 2. XAMPP Kontrol Panelini açın ve Apache ile MySQL'i başlatın.
