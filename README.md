@@ -29,30 +29,7 @@ C:\xampp\htdocs\
 ```
 2. XAMPP Kontrol Panelini açın ve Apache ile MySQL'i başlatın.
 3. `http://localhost/phpmyadmin` adresine gidin ve yeni bir veritabanı oluşturun.
-4. Aşağıdaki SQL komutlarını kullanarak veritabanı tablolarını oluşturun:
-
-    ```sql
-    CREATE DATABASE berber_takip;
-
-    USE berber_takip;
-
-    CREATE TABLE kullanicilar (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        kullanici_adi VARCHAR(50) NOT NULL,
-        sifre VARCHAR(255) NOT NULL
-    );
-
-    CREATE TABLE musteriler (
-        id INT AUTO_INCREMENT PRIMARY KEY,
-        kullanici_id INT,
-        ad_soyad VARCHAR(100),
-        telefon VARCHAR(20),
-        eposta VARCHAR(100),
-        randevu_tarihi DATE,
-        FOREIGN KEY (kullanici_id) REFERENCES kullanicilar(id)
-    );
-    ```
-
+4. berber.sql dosyasını phpMyAdmin üzerinden veritabanınıza içe aktarın.
 5. `web-proje2/includes/veritabani.php` dosyasını açın ve veritabanı bağlantı bilgilerini güncelleyin.
 6. `http://localhost/index.php` adresine gidin ve uygulamayı kullanmaya başlayın.
 
