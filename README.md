@@ -4,7 +4,7 @@
 
 1. Proje dosyalarını indirin ve XAMPP `htdocs` klasörüne yerleştirin.
 ```
-C:\xampp\htdocs\
+C:\xampp\htdocs\Kuafor-Musteri-Takip-Sistemi-main\
     ├── index.php
     ├── README.md
     ├── .htaccess
@@ -31,7 +31,7 @@ C:\xampp\htdocs\
 3. `http://localhost/phpmyadmin` adresine gidin ve yeni bir veritabanı oluşturun.
 4. berber.sql dosyasını phpMyAdmin üzerinden veritabanınıza içe aktarın.
 5. `web-proje2/includes/veritabani.php` dosyasını açın ve veritabanı bağlantı bilgilerini güncelleyin.
-6. `http://localhost/index.php` adresine gidin ve uygulamayı kullanmaya başlayın.
+6. `http://localhost/Kuafor-Musteri-Takip-Sistemi-main/index.php` adresine gidin ve uygulamayı kullanmaya başlayın.
 
 ## Kullanım
 
